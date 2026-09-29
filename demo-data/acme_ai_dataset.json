@@ -1,0 +1,187 @@
+{
+  "_notice": "CLEARLY LABELED SYNTHETIC / DEMO DATASET FOR HACKWITHHYDERABAD 3.0. NOT REAL CUSTOMER DATA.",
+  "organization": {
+    "name": "AcmeAI Technologies",
+    "slug": "acme-tech",
+    "hindsight_bank_id": "contentiq::acme-tech",
+    "industry": "B2B Developer Tools & AI Infrastructure",
+    "median_engagement_rate": 2.0,
+    "median_impressions": 3400
+  },
+  "brand_voice": {
+    "tone": "Technical, Concise, Evidence-based, Pragmatic",
+    "principles": [
+      "Prioritize architecture diagrams, code walkthroughs, and benchmark data over high-level speculation",
+      "Explain the 'how' and 'why', not just the 'what'",
+      "Provide 3 educational touchpoints before introducing any product CTA"
+    ],
+    "avoid_words": [
+      "game-changer",
+      "revolutionary",
+      "mind-blowing",
+      "hype",
+      "magic",
+      "guaranteed virality"
+    ],
+    "preferred_style": "Direct, authoritative engineer-to-engineer tone with reproducible code snippets"
+  },
+  "audience_segments": [
+    {
+      "name": "Software Developers & AI Engineers",
+      "pain_points": [
+        "LLM context leaks and memory state drift",
+        "Slow local inference with SLMs",
+        "Untrusted code execution in autonomous agent workflows"
+      ],
+      "preferred_formats": [
+        "Step-by-step code tutorials",
+        "Architecture diagrams",
+        "Docker/gVisor sandboxing blueprints",
+        "Benchmarking tables"
+      ],
+      "strong_response": "Deep technical implementations, GitHub repositories, Docker configurations",
+      "weak_response": "Broad industry opinions, generic AI news summaries"
+    },
+    {
+      "name": "Engineering Leaders & CTOs",
+      "pain_points": [
+        "Enterprise ROI on GenAI spend",
+        "Security compliance and tenant isolation",
+        "High cloud GPU latency and costs"
+      ],
+      "preferred_formats": [
+        "Production case studies",
+        "Cost optimization postmortems",
+        "System architecture teardowns"
+      ],
+      "strong_response": "Financial ROI breakdowns, reliability benchmarks",
+      "weak_response": "Pure marketing hype"
+    },
+    {
+      "name": "Technical Product Managers",
+      "pain_points": [
+        "Agentic workflow predictability",
+        "Balancing autonomous reasoning with human-in-the-loop oversight"
+      ],
+      "preferred_formats": [
+        "Workflow comparisons",
+        "State machine diagrams",
+        "Evaluation rubrics"
+      ],
+      "strong_response": "Systematic evaluation frameworks",
+      "weak_response": "Vague feature announcements"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp-ai-automation-week",
+      "name": "AI Automation Week",
+      "objective": "Establish engineering credibility around workflow automation",
+      "result": "Educational tutorials drove 3.5x more newsletter subscriptions than promotional CTAs",
+      "learning": "Always deliver 3 educational touchpoints before asking for a conversion CTA"
+    },
+    {
+      "id": "camp-slm-deepdive",
+      "name": "Local SLM Deployment Sprint",
+      "objective": "Highlight edge inference cost savings",
+      "result": "Carousel walkthroughs generated 3.6x higher LinkedIn save rates than static graphics",
+      "learning": "LinkedIn algorithms aggressively reward multi-slide code carousels"
+    },
+    {
+      "id": "camp-generic-news-experiment",
+      "name": "Weekly AI News Roundup",
+      "objective": "Test high-frequency broad commentary",
+      "result": "0.4x median performance across 7 posts (underperformed by 60%)",
+      "learning": "Generic news commentary consistently fails with developer audiences; cease generic news"
+    }
+  ],
+  "historical_learnings": [
+    {
+      "category": "performance",
+      "learning": "Technical step-by-step tutorials achieve 2.4x–3.2x median engagement; generic commentary underperforms at 0.4x.",
+      "retained_in_hindsight": true
+    },
+    {
+      "category": "experiment",
+      "learning": "Code carousels produce 3.6x higher saves on LinkedIn compared to static architecture diagrams.",
+      "retained_in_hindsight": true
+    },
+    {
+      "category": "audience_insight",
+      "learning": "Developer audience prioritizes security hardening, reproducible code, and benchmark figures; ignores promotional slogans.",
+      "retained_in_hindsight": true
+    },
+    {
+      "category": "trend",
+      "learning": "Early participation in emerging trends with a technical implementation angle delivers peak viral distribution.",
+      "retained_in_hindsight": true
+    },
+    {
+      "category": "decision",
+      "learning": "Mandate practical technical code angle for all future AI Agent and SLM campaigns.",
+      "retained_in_hindsight": true
+    }
+  ],
+  "historical_content_items": [
+    {
+      "title": "Building Your First Multi-Agent Pipeline with LangGraph",
+      "topic": "AI Agents",
+      "angle": "Practical developer tutorial",
+      "format": "Tutorial",
+      "platform": "LinkedIn",
+      "impressions": 8200,
+      "engagements": 410,
+      "shares": 63,
+      "relative_performance": 2.4,
+      "status": "published"
+    },
+    {
+      "title": "Why AI is Changing the Entire Future of Knowledge Work",
+      "topic": "AI Industry News",
+      "angle": "Generic commentary",
+      "format": "Opinion",
+      "platform": "LinkedIn",
+      "impressions": 950,
+      "engagements": 12,
+      "shares": 0,
+      "relative_performance": 0.4,
+      "status": "published"
+    },
+    {
+      "title": "Automating Internal Code Reviews with Local SLMs",
+      "topic": "AI Automation",
+      "angle": "Technical architecture breakdown",
+      "format": "Case Study",
+      "platform": "LinkedIn",
+      "impressions": 6800,
+      "engagements": 390,
+      "shares": 45,
+      "relative_performance": 2.1,
+      "status": "published"
+    },
+    {
+      "title": "10 Mind-Blowing AI Tools You Cannot Miss This Week",
+      "topic": "AI Tools",
+      "angle": "Generic listicle",
+      "format": "Listicle",
+      "platform": "LinkedIn",
+      "impressions": 1100,
+      "engagements": 18,
+      "shares": 1,
+      "relative_performance": 0.35,
+      "status": "published"
+    },
+    {
+      "title": "How to Sandbox Python Tool Calls in Docker for Autonomous Agents",
+      "topic": "AI Agents",
+      "angle": "Security tutorial + GitHub Repo",
+      "format": "Tutorial",
+      "platform": "LinkedIn",
+      "impressions": 12400,
+      "engagements": 680,
+      "shares": 93,
+      "relative_performance": 3.2,
+      "status": "published"
+    }
+  ]
+}
