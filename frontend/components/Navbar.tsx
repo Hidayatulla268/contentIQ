@@ -33,6 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: "compare", label: "Memory vs Stateless", icon: GitCompare },
     { id: "evolution", label: "Learning Timeline", icon: History },
     { id: "chat", label: "Strategy Chat", icon: MessageSquare },
+    { id: "video", label: "AI Video Demo", icon: Sparkles },
   ];
 
   return (

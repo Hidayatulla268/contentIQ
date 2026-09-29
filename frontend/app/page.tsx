@@ -8,6 +8,7 @@ import { MemoryExplorerView } from "../components/MemoryExplorerView";
 import { ModeComparisonView } from "../components/ModeComparisonView";
 import { LearningEvolutionView } from "../components/LearningEvolutionView";
 import { StrategyChatView } from "../components/StrategyChatView";
+import { VideoDemoPlayer } from "../components/VideoDemoPlayer";
 import { StrategyDetailModal } from "../components/StrategyDetailModal";
 import { PublishAndLearnModal } from "../components/PublishAndLearnModal";
 import { WhatDidYouLearnModal } from "../components/WhatDidYouLearnModal";
@@ -142,6 +143,10 @@ export default function Home() {
           <StrategyChatView
             onTriggerFullStrategy={(trend) => handleTriggerStrategy()}
           />
+        )}
+
+        {activeTab === "video" && (
+          <VideoDemoPlayer />
         )}
       </main>
 

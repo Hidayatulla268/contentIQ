@@ -9,6 +9,8 @@
 [![Groq](https://img.shields.io/badge/LLM-Groq_Llama_3.3_70B-orange.svg)](https://groq.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> 🔗 **Content Submission Links**: All 4 team member technical articles, LinkedIn social posts, and YouTube demo video are organized in [**`SUBMISSION_LINKS.md`**](SUBMISSION_LINKS.md).
+
 ---
 
 ## 📌 Executive Summary
